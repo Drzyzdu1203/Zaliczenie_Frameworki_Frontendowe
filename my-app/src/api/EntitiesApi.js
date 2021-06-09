@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import axios from "axios";
 import { render } from "@testing-library/react";
 import "./ApiStyles.css";
+import $ from 'jquery'
+
+
+
 
 class EntitiesApi extends Component {
   state = {
@@ -13,6 +17,9 @@ class EntitiesApi extends Component {
       this.setState({
         images: res.data.slice(0, 32)
       });
+    });
+    $("#btn1").click(function(){
+      $("#div1").toggleClass("ListImage");
     });
   }
 
@@ -31,7 +38,11 @@ class EntitiesApi extends Component {
         );
       });
 
-    return <div className="ListImage">{imageList}</div>;
+    return <div>
+              <input type="button" id="btn1" value="List / Mosaic" />
+              <div id="div1" className="MosaicImage">{imageList}</div>
+
+          </div>;
   }
 }
 
