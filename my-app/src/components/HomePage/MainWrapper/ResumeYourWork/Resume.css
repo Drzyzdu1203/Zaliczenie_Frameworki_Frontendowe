@@ -8,11 +8,11 @@
 }
 .Res1 {
     background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    width: 1350px;
+    width: 1285px;
     height: 130px;
     border-radius: 1%;
     margin-bottom: 20px;  
+    margin-left: 60px;
 }
 
 .ResTitle {

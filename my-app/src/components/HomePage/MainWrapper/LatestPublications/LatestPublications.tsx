@@ -1,6 +1,5 @@
 import React from "react";
 import "./LatestPublications.css";
-import BigImage from "../../../../assets/images/big-image.jpg";
 import HandsImage from "../../../../assets/images/hands.jpg";
 
 import { Link } from "react-router-dom";

@@ -2,22 +2,22 @@ import React from "react";
 import WorkspacesContent from "./WorkspacesContent";
 import { BrowserRouter } from "react-router-dom";
 import "./WorkspacesPage.css";
-import Notes from "../../assets/icons/notes.png";
-import Hand2 from "../../assets/images/hand2.jpg";
+import Publications from "../../assets/icons/publications.png";
+import Library from "../../assets/images/library.jpg";
 
-const ClientContract = () => (
+const GroupNotes = () => (
   <BrowserRouter>
     <div className="WorkspacesPage">
       <div className="WorkspacesMain">
-        <img className="WorkspacesImage1" src={Hand2} alt="WorkspacesImage1" />
+        <img className="WorkspacesImage1" src={Library} alt="WorkspacesImage1" />
         <div className="WorkspacesMainName">
           <img
             className="WorkspacesImage2"
-            src={Notes}
+            src={Publications}
             alt="WorkspacesImage2"
           />
           <div>
-            <h3>Client contract</h3>
+            <h3>Group Notes</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. doloribus at sed quis culpa deserunt consectetur qui
@@ -32,4 +32,4 @@ const ClientContract = () => (
   </BrowserRouter>
 );
 
-export default ClientContract;
+export default GroupNotes;

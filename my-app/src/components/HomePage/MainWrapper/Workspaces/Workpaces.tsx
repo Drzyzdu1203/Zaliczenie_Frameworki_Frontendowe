@@ -24,7 +24,7 @@ const Workspaces = () => (
             </div>
         </div></Link>
 
-        <Link to="/workspaces/client_contract"><div className= "Contener"><img src={Hand2} alt="" />
+        <Link to="/workspaces/supplier_contract"><div className= "Contener"><img src={Hand2} alt="" />
             <div className= "Contener_box"><img src={Notes} alt=""/><p>Supplier contract</p></div>
             <div className= "Contener_content">
             <img src={Notes} alt=""/><p>Contract</p><p>•</p><img src={People} alt=""/><p>25 users </p>
@@ -44,37 +44,15 @@ const Workspaces = () => (
             </div>
         </div></Link>
 
-        <Link to="/workspaces"><div className= "Contener"><img src={Library} alt="" />
+        <Link to="/workspaces/group_notes"><div className= "Contener"><img src={Library} alt="" />
             <div className= "Contener_box"><img src={Publications} alt=""/><p>Group notes</p></div>
             <div className= "Contener_content">
-            <img src={Notes} alt=""/><p>Norms</p><p>•</p><img src={People} alt=""/><p>25 users </p>
+            <img src={Publications} alt=""/><p>Norms</p><p>•</p><img src={People} alt=""/><p>25 users </p>
             </div>
             <div className= "Contener_content2">
                 <p>Last update 2 days ago</p>
             </div>
         </div></Link>
-
-        <Link to="/workspaces"><div className= "Contener"><img src={Hand2} alt="" />
-            <div className= "Contener_box"><img src={Notes} alt=""/><p>Supplier contract</p></div>
-            <div className= "Contener_content">
-            <img src={Notes} alt=""/><p>Contract</p><p>•</p><img src={People} alt=""/><p>25 users </p>
-            </div>
-            <div className= "Contener_content2">
-                <p>Last update 2 days ago</p>
-            </div>
-        </div></Link>
-
-        <Link to="/workspaces"><div className= "Contener"><img src={Library} alt="" />
-            <div className= "Contener_box"><img src={Notes} alt=""/><p>Group notes</p></div>
-            <div className= "Contener_content">
-            <img src={Notes} alt=""/><p>Contract</p><p>•</p><img src={People} alt=""/><p>25 users </p>
-            </div>
-            <div className= "Contener_content2">
-                <p>Last update 2 days ago</p>
-            </div>
-        </div></Link>
-        
-       
     </div>
     );
      

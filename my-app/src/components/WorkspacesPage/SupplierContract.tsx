@@ -5,7 +5,7 @@ import "./WorkspacesPage.css";
 import Notes from "../../assets/icons/notes.png";
 import Hand2 from "../../assets/images/hand2.jpg";
 
-const ClientContract = () => (
+const SupplierContract = () => (
   <BrowserRouter>
     <div className="WorkspacesPage">
       <div className="WorkspacesMain">
@@ -17,7 +17,7 @@ const ClientContract = () => (
             alt="WorkspacesImage2"
           />
           <div>
-            <h3>Client contract</h3>
+            <h3>Supplier contract</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. doloribus at sed quis culpa deserunt consectetur qui
@@ -32,4 +32,4 @@ const ClientContract = () => (
   </BrowserRouter>
 );
 
-export default ClientContract;
+export default SupplierContract;

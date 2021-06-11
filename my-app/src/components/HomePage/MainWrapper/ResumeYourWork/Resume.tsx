@@ -14,29 +14,11 @@ const Resume = () => (
     <p>Resume your work</p>
 
     <div className="Res1">
-      <ResumeApi />
+    {[...Array(10)].map((x, i) =>
+    <ResumeApi key={i} />
+  )}
     </div>
-    <div className="Res1">
-      <ResumeApi />
-    </div>
-    <div className="Res1">
-      <ResumeApi />
-    </div>
-    <div className="Res1">
-      <ResumeApi />
-    </div>
-    <div className="Res1">
-      <ResumeApi />
-    </div>
-    <div className="Res1">
-      <ResumeApi />
-    </div>
-    <div className="Res1">
-      <ResumeApi />
-    </div>
-    <div className="Res1">
-      <ResumeApi />
-    </div>
+    
   </div>
 );
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import ResumeApi from "../../api/ResumeApi";
 import Corpo from "../../assets/images/corporate.jpg";
 import Entities2 from "../../assets/icons/entities2.png";
 import "./WorkspacesPage.css";
@@ -25,10 +24,7 @@ const WorkspacesPageCorporate = () => (
               praesentium accusamus fugiat dicta voluptatem rerum ut voluptate
               autem voluptatem repellendus aspernatur dolorem in
             </p>
-            <WorkspacesContent/>
-            <div className="Res2">
-        <ResumeApi />
-      </div>
+            <WorkspacesContent />
           </div>
         </div>
       </div>

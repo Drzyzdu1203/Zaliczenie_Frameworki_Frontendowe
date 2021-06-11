@@ -1,7 +1,9 @@
 import React from "react";
 import "./WorkspacesPage.css";
 import Entities2 from "../../assets/icons/entities2.png";
-import Notes from "../../assets/icons/notes.png";
+import Network from "../../assets/icons/network.png";
+import Calendar from "../../assets/icons/calendar.png";
+import ResumeApi from "../../api/ResumeApi";
 
 const WorkspacesContent = () => (
   <div>
@@ -24,11 +26,11 @@ const WorkspacesContent = () => (
       <div className="WorkspacesContener2">
         <img
           className="WorkspacesImage2"
-          src={Entities2}
+          src={Network}
           alt="WorkspacesImage2"
         />
         <div className="WorkspacesMainNameContent">
-          <h3>Explore your entities</h3>
+          <h3>Structure the <strong>ownership</strong></h3>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.{" "}
@@ -38,11 +40,11 @@ const WorkspacesContent = () => (
       <div className="WorkspacesContener3">
         <img
           className="WorkspacesImage2"
-          src={Entities2}
+          src={Calendar}
           alt="WorkspacesImage2"
         />
         <div className="WorkspacesMainNameContent">
-          <h3>Explore your entities</h3>
+          <h3>Define your <strong>calendar</strong></h3>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.{" "}
@@ -68,6 +70,11 @@ const WorkspacesContent = () => (
           placeholder="Filter by title..."
           id="DropdownInput"
         ></input>
+      </div>
+      <div className="Res2">
+            {[...Array(10)].map((x, i) =>
+    <ResumeApi key={i} />
+  )}
       </div>
   </div>
 );
