@@ -50,7 +50,7 @@ const ResumeApi = () => {
         <div className="ApiContent2">
         <Link to="/test"> <p className="ResTitle">Contract #{Math.floor(Math.random() * 200)}</p></Link>
            <div className="PostContent2"> {post} </div>
-           <img src={Entities} alt=""/><p>Subsid.corp</p><p>•</p><img src={Notes} alt=""/><Link to="/workspaces/client_contract"><p>Client contracts</p></Link><p>•</p>
+           <img src={Entities} alt=""/><p>Subsid.corp</p><p>•</p><img src={Notes} alt=""/><Link to="/client_contract"><p>Client contracts</p></Link><p>•</p>
             <div className="ApiUserName2">Updated 3 days ago by {user} </div>           
         </div>
         

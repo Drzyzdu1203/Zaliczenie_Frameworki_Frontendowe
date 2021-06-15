@@ -19,10 +19,10 @@ const App = () => (
       <TopNav />
       <LeftMenu />
       <Route exact path="/" component={MainWrapper} />
-      <Route path="/workspaces/client_contract" component={ClientContract} />
-      <Route path="/workspaces/supplier_contract" component={SupplierContract} />
-      <Route path="/workspaces/corporate" component={Corporate} />
-      <Route path="/workspaces/group_notes" component={GroupNotes} />
+      <Route path="/client_contract" component={ClientContract} />
+      <Route path="/supplier_contract" component={SupplierContract} />
+      <Route path="/corporate" component={Corporate} />
+      <Route path="/group_notes" component={GroupNotes} />
       <Route path="/test" component={TestPage} />
       <Route path="/entities" component={EntitiesPage} />
       <Route path="/profil" component={ProfilPage} />

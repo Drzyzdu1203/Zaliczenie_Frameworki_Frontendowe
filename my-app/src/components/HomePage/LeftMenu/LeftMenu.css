@@ -33,31 +33,46 @@
 }
 .MenuIcons {
     padding-bottom: 5px;
+    color: black;
+    text-decoration: none;
 }
 .Inside {
     padding-top: 15px;
+    color: black;
+    text-decoration: none;
 }
 .InsideIcons {
     margin-left: 20px;
     padding-top: 10px;
+    display:flex
+}
+.InsideIcons img {
+    margin-right: 10px;
 }
 .UserIcons {
     display: inline;
-    margin-left: 90px;
+    margin-left: 80px;
     padding-left: 7px;
-    padding-right: 7px;
+    padding-right: 2px;
     border: 1px solid black;
     border-radius: 25%;
 }
 .UserIcons2 {
     display: inline;
-    margin-left: 60px;
+    margin-left: 50px;
     padding-left: 7px;
-    padding-right: 7px;
+    padding-right: 2px;
     border: 1px solid black;
     border-radius: 25%;
 }
 .ListIcons {
     padding-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+.ListIcons img {
+    margin-right: 30px;
 }
 

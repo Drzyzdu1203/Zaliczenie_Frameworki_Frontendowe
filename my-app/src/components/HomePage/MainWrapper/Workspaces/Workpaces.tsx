@@ -13,8 +13,8 @@ const Workspaces = () => (
 
     <div className= "Workspaces">
         <p>Workspaces</p>
-                                                                                                                                {/*zmienic na tablice*/}
-        <Link to="/workspaces/client_contract"><div className= "Contener"><img src={Hand2} alt="" />
+                                                                                                                               {/*zmienic na tablice*/}
+        <Link to="/client_contract"><div className= "Contener"><img src={Hand2} alt="" />
             <div className= "Contener_box"><img src={Notes} alt=""/><p>Client contract</p></div>
             <div className= "Contener_content">
             <img src={Notes} alt=""/><p>Contract</p><p>•</p><img src={People} alt=""/><p>150 users </p> 
@@ -24,7 +24,7 @@ const Workspaces = () => (
             </div>
         </div></Link>
 
-        <Link to="/workspaces/supplier_contract"><div className= "Contener"><img src={Hand2} alt="" />
+        <Link to="/supplier_contract"><div className= "Contener"><img src={Hand2} alt="" />
             <div className= "Contener_box"><img src={Notes} alt=""/><p>Supplier contract</p></div>
             <div className= "Contener_content">
             <img src={Notes} alt=""/><p>Contract</p><p>•</p><img src={People} alt=""/><p>25 users </p>
@@ -34,7 +34,7 @@ const Workspaces = () => (
             </div>
         </div></Link>
 
-        <Link to="/workspaces/corporate"><div className= "Contener"><img src={Corpo} alt="" />
+        <Link to="/corporate"><div className= "Contener"><img src={Corpo} alt="" />
             <div className= "Contener_box"><img src={Entities} alt=""/><p>Corporate</p></div>
             <div className= "Contener_content">
             <img src={Entities} alt=""/><p>Corporate</p><p>•</p><img src={People} alt=""/><p>666 users </p> 
@@ -44,7 +44,7 @@ const Workspaces = () => (
             </div>
         </div></Link>
 
-        <Link to="/workspaces/group_notes"><div className= "Contener"><img src={Library} alt="" />
+        <Link to="/group_notes"><div className= "Contener"><img src={Library} alt="" />
             <div className= "Contener_box"><img src={Publications} alt=""/><p>Group notes</p></div>
             <div className= "Contener_content">
             <img src={Publications} alt=""/><p>Norms</p><p>•</p><img src={People} alt=""/><p>25 users </p>

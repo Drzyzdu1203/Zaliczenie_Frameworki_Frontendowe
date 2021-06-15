@@ -7,14 +7,17 @@ import Cog from "../../assets/icons/cog.png";
 
 
 
+
 const EntitiesPage = () => (
   <BrowserRouter>
     <div className="EntitiesPage">
+    
       <div className="EntitiesTitle">
       <h2>Entities</h2>
       <img src={Cog} alt="" />
       </div>
       <div className="EntitiesNav">
+        
 <button>All</button>
 <button>Sort</button>
 <button>Filters</button>
@@ -24,11 +27,11 @@ onClick={() => navigator.clipboard.writeText('localhost:3000/entities')}>
 Share
 </button>
 
-</div>
-
+ </div>
+  
       <EntitiesApi />
 
-    </div>
+ </div>
   </BrowserRouter>
 );
 
