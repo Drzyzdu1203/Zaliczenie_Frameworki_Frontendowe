@@ -4,6 +4,11 @@ import Entities2 from "../../assets/icons/entities2.png";
 import Network from "../../assets/icons/network.png";
 import Calendar from "../../assets/icons/calendar.png";
 import ResumeApi from "../../api/ResumeApi";
+import { Pagination } from "@material-ui/lab";
+
+
+
+
 
 const WorkspacesContent = () => (
   <div>
@@ -71,11 +76,17 @@ const WorkspacesContent = () => (
           id="DropdownInput"
         ></input>
       </div>
-      <div className="Res2">
+      <div className="Res3">
             {[...Array(10)].map((x, i) =>
     <ResumeApi key={i} />
   )}
-      </div>
+<div className="Pagination" >
+    
+    <Pagination count={10} color="primary"/>
+        </div>
   </div>
+      </div>
+      
+  
 );
 export default WorkspacesContent;
